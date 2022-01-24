@@ -1,0 +1,18 @@
+public class BoxDemo {
+    public static void main(String[] args) {
+        Box mybox = new Box(); // first object of box
+        Box mybox1 = new Box();// second box object
+
+      /*  //instance variable of first box object
+        mybox.width =10;
+        mybox.height =20;
+        mybox.length=5;
+        //instance variable of second box object
+        mybox1.length =10;
+        mybox1.width = 2;
+        mybox1.height= 1;*/
+        System.out.println("The volume of box is:"+mybox.volume());
+        System.out.println("The volume of box is"+mybox1.volume());
+        System.out.println("The name of class mybox is:"+mybox.getClass().getName());
+    }
+}
